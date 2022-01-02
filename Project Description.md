@@ -8,7 +8,7 @@ After that change the positions of all the planets so that they appear to be mov
 
 
 <h2>Custom made functions used </h2>
-planetMotion(int xrad, int yrad,int midx, int midy,int x[70], int y[70]) : Function which is used to manipulates the position of planets on the orbit, it changes the planets in the location in it's corresponding orbit.
+**planetMotion(int xrad, int yrad,int midx, int midy,int x[70], int y[70])** : Function which is used to manipulates the position of planets on the orbit, it changes the planets in the location in it's corresponding orbit.
 
 <h2>Built in functions used</h2>
 
