@@ -1,4 +1,4 @@
-# Solar Orbit CGM-PROJECT
+Solar system CGM-PROJECT
 
  <h2>Summary </h2>
 A simple program to draw a solar system using computer graphics. In which the sun is at the center and other planets revolve around it.To draw the solar system, 
