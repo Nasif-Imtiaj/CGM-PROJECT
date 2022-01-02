@@ -12,6 +12,8 @@ planetMotion(int xrad, int yrad,int midx, int midy,int x[70], int y[70]) : Funct
 
 <h2>Built in functions used</h2>
 
+ellipse(int x, int y, int start_angle, int end_angle, int x_radius, int y_radius) : In this function x, y is the location of the ellipse. x_radius and y_radius decide the radius of form x and y, start_angle is the starting point of angle and end_angle is the ending point of angle. The value of angle can vary from 0 to 360 degree.
+
 setfillstyle(int pattern, int color) : Is used to set the current fill pattern and fill color.
 
 floodfill(int x, int y, int border_color) : Is used to fill an enclosed area.
@@ -28,9 +30,9 @@ getmaxx() : It returns the maximum X coordinate for current graphics mode and dr
 
 delay() :  Delay function is used to suspend execution of a program for a particular time.
 
-closegraph() : The header file graphics.h contains closegraph() function which closes the graphics mode, deallocates all memory allocated by graphics system and restores the screen to the mode it was in before you called initgraph.
+closegraph() : function which closes the graphics mode, deallocates all memory allocated by graphics system and restores the screen to the mode it was in before you called initgraph.
 
-cleardevice(): The header file graphics.h contains cleardevice() function which clears the screen in graphics mode and sets the current position to (0,0). Clearing the screen consists of filling the screen with current background color.
+cleardevice(): function which clears the screen in graphics mode and sets the current position to (0,0). Clearing the screen consists of filling the screen with current background color.
 
 initgraph(&gdriver, &gmode, "") : &gdriver is the address of gdriver variable, &gmode is the address of gmode and  "C:\\Turboc3\\BGI" is the directory path where BGI files are stored.
 
