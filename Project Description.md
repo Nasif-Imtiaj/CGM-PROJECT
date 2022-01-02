@@ -1,7 +1,7 @@
 Solar system CGM-PROJECT
 
  <h2>Summary </h2>
-A simple program to draw a solar system using computer graphics. In which the sun is at the center and other planets revolve around it.To draw the solar system, 
+A solar system project using computer graphics. In which the sun is at the center and other planets revolve around it.To draw the solar system, 
 we start with a concentric ellipse because all the planet’s paths are elliptical.Then make a circle in the center of the ellipse and fill it with yellow paint to 
 represent the sun.Then draw different circles, fill them with different colors and then choose the correct coordinate to place all of these in the ellipse’s path. 
 After that change the positions of all the planets so that they appear to be moving on an ellipse.
