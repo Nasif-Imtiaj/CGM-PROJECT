@@ -1,16 +1,17 @@
 # Solar Orbit CGM-PROJECT
 
+**Summary**
 A simple program to draw a solar system using computer graphics. In which the sun is at the center and other planets revolve around it.To draw the solar system, 
 we start with a concentric ellipse because all the planet’s paths are elliptical.Then make a circle in the center of the ellipse and fill it with yellow paint to 
 represent the sun.Then draw different circles, fill them with different colors and then choose the correct coordinate to place all of these in the ellipse’s path. 
 After that change the positions of all the planets so that they appear to be moving on an ellipse.
 
 
-Custom made functions used:
+**Custom made functions used:**
 
 planetMotion(int xrad, int yrad,int midx, int midy,int x[70], int y[70]) : Function which is used to manipulates the position of planets on the orbit, it changes the planets in the location in it's corresponding orbit.
 
-Built in functions used:
+**Built in functions used:**
 
 setfillstyle(int pattern, int color) : Is used to set the current fill pattern and fill color.
 
