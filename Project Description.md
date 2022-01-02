@@ -12,7 +12,9 @@ location in it's corresponding orbit.
 
 Built in functions used:
 setfillstyle(int pattern, int color) : Is used to set the current fill pattern and fill color.
+
 floodfill(int x, int y, int border_color) : Is used to fill an enclosed area.
+
 pieslice(int x, int y, int s_angle, int e_angle, int r) : pieslice() draws and fills a pie slice with center at (x, y) and given radius r. The slice travels from s_angle to e_angle which are starting and ending angles for the pie slice. The angles for pie-slice are given in degrees and are measured counterclockwise.
 setcolor(int color) :  It is used to set the current drawing color to the new color.
 outtextxy(int x, int y, char *string) : It is used to display the text or string at a specified point (x, y) on the screen.
